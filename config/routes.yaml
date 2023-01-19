@@ -1,0 +1,15 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+api_login_check:
+    path: /api/login_check
+
+register_user:
+   path: api/register
+   controller: App\Controller\MyController::index
+   methods: POST
+
+list_users:
+   path: api/list
+   controller: App\Controller\MyController::list
+   methods: GET
